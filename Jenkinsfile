@@ -5,7 +5,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Getting the latest code from the Git repository
-                git 'https://github.com/SixCosti/DevOps-Jenkins-NodeProject'
+                git branch: 'main',
+                    url: 'https://github.com/SixCosti/DevOps-Jenkins-NodeProject'
             }
         }
         
