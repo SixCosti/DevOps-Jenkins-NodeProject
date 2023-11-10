@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Getting the latest code from the Git repository
-                git 'https://gitlab.com/SixCosti/DevOps-Jenkins-NodeProject.git'
+                git 'https://github.com/SixCosti/DevOps-Jenkins-NodeProject'
             }
         }
         
